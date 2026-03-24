@@ -1,0 +1,15 @@
+{
+  "name": "la-jazz-finder",
+  "version": "1.0.0",
+  "description": "AI-powered LA jazz calendar for Jimmy",
+  "scripts": {
+    "dev": "node api/jazz.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
